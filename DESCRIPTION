@@ -1,0 +1,15 @@
+Package: ArimaxImpact
+Type: Package
+Title: Interface that allows impact assessments to be carried out on time series.
+Version: 0.1.0
+Author: Jorge Alberto Nájera Salmerón
+Maintainer: Jorge Nájera <jans_101194@hotmail.com>
+Description: Package designed to provide an interface that allows impact assessments to be carried out on time series in csv format using ARIMAX models.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: DT, FinTS, dplyr, dygraphs, forecast, ggplot2, hablar,
+  haven, htmltools, htmlwidgets, lubridate, plotly,
+  rCharts, shiny, shinyEffects, shinyWidgets,
+  shinycssloaders, shinydashboard, shinydashboardPlus, shinyjs,
+  sodium, tseries, tsoutliers
